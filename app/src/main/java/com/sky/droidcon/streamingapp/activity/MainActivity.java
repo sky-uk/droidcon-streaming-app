@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity implements VideosAdapter.Lis
 
     @Override
     public void onItemClicked(Video video) {
-        startActivity(VideoViewActivity.getVideoViewIntent(this, video.getContentUrl()));
+        //startActivity(VideoViewActivity.getVideoViewIntent(this, video.getContentUrl()));
+        startActivity(MediaPlayerActivity.getMediaPlayerIntent(this, video.getContentUrl()));
     }
 }

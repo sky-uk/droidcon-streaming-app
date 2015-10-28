@@ -22,6 +22,9 @@
         <activity android:name=".activity.VideoViewActivity"
             android:configChanges="keyboardHidden|orientation|screenSize" />
 
+        <activity android:name=".activity.MediaPlayerActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+
     </application>
 
 </manifest>
