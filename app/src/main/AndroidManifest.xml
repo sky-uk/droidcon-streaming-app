@@ -25,6 +25,10 @@
         <activity android:name=".activity.MediaPlayerActivity"
             android:configChanges="keyboardHidden|orientation|screenSize" />
 
+        <activity android:name=".activity.ExoPlayerActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@style/PlayerTheme"/>
+
     </application>
 
 </manifest>
